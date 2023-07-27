@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chirag Library</title>
+   
+</head>
+<link rel="stylesheet" href="css/style.css">
+<style>
+    
+    body{
+        margin: 0px;
+        padding: 0px;;
+        background: rgba(0,0,0,0.7)url('image/c1.jpg');
+        background-size: cover;
+        background-blend-mode: darken;
+        color: white;
+    }
+    
+   
+    .logo{
+        
+        padding: 17px 37px;
+        text-align: left;
+        display: block;
+        line-height: 27px;
+        background-color: red;
+    
+    }
+    .logo img{
+        position: relative;
+        width: 70px;
+        margin:1px 1px;
+        padding:0px 9px;
+        
+        
+    }
+    .navbar{
+        display: block;   
+        width: 33%;
+        margin: -123px auto;
+        padding:17px 3px;
+        
+    }
+    .navbar ul{
+        margin: 50px 3px;
+        padding: 3px 0px
+    }
+    .navbar li{
+        display: inline-block;
+    }
+    .navbar li a{
+        font-size: 20px;
+        text-decoration: none;
+        color: white;
+        margin: 25px 9px;
+        padding:3px 19px;
+    }
+    .navbar li a:hover{
+        color: black;
+        text-decoration: underline;
+    }
+     .btn{
+        display:block;
+        padding:1px 6px;
+        margin: 52px 10px;
+        float: right;
+     }
+     .container{
+        border: 7px solid #9b8787;
+        border-radius: 10px;
+
+        margin: 235px auto;
+        padding: 19px 3px;
+        width:50%
+     }
+     .form-group input{
+        text-align: center;
+        display: block;
+        width:300px;
+        padding:    4px 3px;
+        margin: 12px auto;
+        border: 2px solid black;
+        border-radius: 13px;
+        color:black
+
+     }
+     .btn1{
+        margin:8px 44px;
+        padding :3px 19px;
+        font-size: 18px;
+        border-radius: 20px;
+     }
+     .container h1{
+        margin: 31px 38px;
+        color: #d6d397;
+     }
+     .container button{
+        display: block;
+        margin: 24px auto ;
+        width:25%;
+        color:white;
+        background: none;
+        border: 3px solid white;
+        padding:6px 3px
+     }
+     .foot{
+        background: red;
+     }
+</style>
+<body>
+    <header>
+        <div class="logo">
+           <img src="image/logo3.png" alt>
+           <div>
+            Chirag Library
+           </div>
+        </div>
+        <div class="navbar">
+            <ul>
+                <li><a href="https://library.thapar.edu/cgi-bin/koha/opac-main.pl">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="https://library.thapar.edu/cgi-bin/koha/opac-user.pl">Explore</a></li>
+                <li><a href="#">Contact us</a></li>
+             </ul>
+        </div>
+        <div>
+      <button class="btn">E-mail</button>
+        </div>
+    </header>
+  <div class="container">
+    <h1>
+        Enter The Following Details To Issue The Book:
+    </h1>
+    <form action="noaction.php">
+        <div class="form-group">
+            <input type="text" name="Name" placeholder="Enter your Name">
+        </div>
+        <div class="form-group">
+            <input type="number" name="Name" placeholder="Enter your Roll number">
+        </div>
+        <div class="form-group">
+            <input type="number" name="Name" placeholder="Enter your Book ID">
+        </div>
+        <div class="form-group">
+            <input type="text" name="Name" placeholder="Enter your Book Name">
+        </div>
+        <button class="btn1" >Submit  </button>
+    </form>
+  </div>
+  
+  
+</body>
+</html>
